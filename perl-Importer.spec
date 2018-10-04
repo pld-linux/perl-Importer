@@ -7,14 +7,14 @@
 Summary:	Importer - Alternative but compatible interface to modules that export symbols
 Summary(pl.UTF-8):	Importer - alternatywny, ale kompatybilny interfejs do modułów eksportujących symbole
 Name:		perl-Importer
-Version:	0.024
+Version:	0.025
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/E/EX/EXODIST/Importer-%{version}.tar.gz
-# Source0-md5:	2d29c79e65e221105a23e28c239b688f
-URL:		http://search.cpan.org/dist/Importer/
+# Source0-md5:	09660fe32701e28ee149258315de0262
+URL:		https://metacpan.org/release/Importer
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
