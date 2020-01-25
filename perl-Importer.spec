@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %define		pdir	Importer
-%include	/usr/lib/rpm/macros.perl
 Summary:	Importer - Alternative but compatible interface to modules that export symbols
 Summary(pl.UTF-8):	Importer - alternatywny, ale kompatybilny interfejs do modułów eksportujących symbole
 Name:		perl-Importer
